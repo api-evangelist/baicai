@@ -1,7 +1,29 @@
 aid: baicai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/baicai.png
 name: Baicai
-description: Baicai is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Baicai (白菜二手车, "Baicai Used Cars") is a Chinese used-vehicle trading platform
+  operating a new-retail model that pairs online used-car marketplaces with
+  offline chain "used-car supermarket" stores. Vehicles listed on the platform
+  are inspected by third-party agencies (100+ point checks that exclude major
+  accident, water-damaged, and fire-damaged cars) and carry a return guarantee
+  plus a warranty on major components. The business was spun out of and operates
+  under 58.com (via Tianjin 58 Cloud Car / 天津五八云车) and became independently
+  operated in 2021. It received early seed backing from Ribbit Capital. Baicai is
+  a consumer-facing marketplace and does not publish a public developer platform,
+  API, SDKs, or API documentation; this profile captures its identity and public
+  web presence for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/baicai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +31,31 @@ x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last_run: '2026-07-18'
+  status: no-developer-surface
+  note: >-
+    Consumer used-car marketplace; no public API, developer portal, docs, SDKs,
+    or /.well-known discovery documents found. /.well-known and /llms.txt probes
+    return the site catch-all (soft 404, 200 text/html), not real documents.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Automotive
+- Used Cars
+- Marketplace
+- E-Commerce
+- Consumer
+- China
+- Ribbit Capital
 apis: []
+common:
+- type: DomainSecurity
+  url: security/baicai-domain-security.yml
+- type: Website
+  url: https://www.baicaiche.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
