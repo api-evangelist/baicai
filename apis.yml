@@ -38,7 +38,7 @@ x-enrichment:
     Consumer used-car marketplace; no public API, developer portal, docs, SDKs,
     or /.well-known discovery documents found. /.well-known and /llms.txt probes
     return the site catch-all (soft 404, 200 text/html), not real documents.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
