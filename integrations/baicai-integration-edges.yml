@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/baicai/integrations
+- https://n8n.io/integrations/baicai/
+- https://composio.dev/toolkits/baicai
+- https://monid.ai/tools/baicai
+checked:
+- https://composio.dev/toolkits/baicai
+- https://monid.ai/tools/baicai
+- https://n8n.io/integrations/baicai/
+- https://zapier.com/apps/baicai/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
